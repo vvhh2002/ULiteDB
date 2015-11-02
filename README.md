@@ -89,4 +89,5 @@ Details changes for each release are documented in the [release notes](https://g
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2015 - Maurício David
+Original Source: Copyright (c) 2015 - Maurício David
+Unity Modifications: Copyright (c) 2015 - Jöran Malek
