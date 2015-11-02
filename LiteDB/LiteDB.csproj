@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LiteDB</RootNamespace>
     <AssemblyName>LiteDB</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -156,6 +156,7 @@
     <Compile Include="Utils\MimeTypeConverter.cs" />
     <Compile Include="Utils\DictionaryExtensions.cs" />
     <Compile Include="Utils\LiteException.cs" />
+    <Compile Include="Utils\StreamExtensions.cs" />
     <Compile Include="Utils\StringScanner.cs" />
   </ItemGroup>
   <ItemGroup>

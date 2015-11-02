@@ -90,8 +90,7 @@ namespace LiteDB
         {
             if(_writer == null)
             {
-                _reader.Dispose();
-                _stream.Dispose();
+                _reader.Close();
                 _stream = new FileStream(_filename, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite, BasePage.PAGE_SIZE);
                 _reader = new BinaryReader(_stream);
                 _writer = new BinaryWriter(_stream);
@@ -130,7 +129,7 @@ namespace LiteDB
             {
                 _stream.Dispose();
                 _reader.Close();
-                if(_writer != null) _writer.Dispose();
+                if(_writer != null) _writer.Close();
             }
         }
 
