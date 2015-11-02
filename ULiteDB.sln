@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDB", "LiteDB\LiteDB.csproj", "{E808051A-83B7-4FA9-B004-D064EA162B60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ULiteDB", "ULiteDB\ULiteDB.csproj", "{E808051A-83B7-4FA9-B004-D064EA162B60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDB.Shell", "LiteDB.Shell\LiteDB.Shell.csproj", "{5C46B331-F4DC-469D-B370-532E67CBA808}"
 EndProject

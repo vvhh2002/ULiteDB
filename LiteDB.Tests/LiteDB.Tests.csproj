@@ -74,9 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LiteDB\LiteDB.csproj">
+    <ProjectReference Include="..\ULiteDB\ULiteDB.csproj">
       <Project>{e808051a-83b7-4fa9-b004-d064ea162b60}</Project>
-      <Name>LiteDB</Name>
+      <Name>ULiteDB</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
